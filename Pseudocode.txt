@@ -1,0 +1,14 @@
+// This is pseudocode Game to guess a random number between 1 to 10//
+Set Guess = 0
+Set maxAttempts = 3;
+Set randomNumber = Number between 1 to 10
+REPEAT UNTIL Guess ISEQUALTO randomNumber
+    PROMPT USER "Guess a number between 1 and 10"
+    SET Guess EQUAL TO User answer
+    IF Guess IS EQUAL TO randomNumber
+        OUTPUT "Congratulations You get it right"
+    ELSEIF Guess IS GREATER THAN randomNumber
+        OUTPUT "Number is bigger, try again"
+    ELSE
+        OUTPUT "Number is smaller, try again"
+END REPEAT
